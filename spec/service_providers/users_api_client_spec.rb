@@ -28,7 +28,7 @@ describe UsersApiClient, pact: true do
           will_respond_with(
             status: 200,
             headers: { 'Content-Type' => 'application/json; charset=utf-8' },
-            body: []
+            body: [ ]
           )
 
         expect(UsersApiClient.new.number_of_users).to eq(0)
