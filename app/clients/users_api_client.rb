@@ -6,4 +6,12 @@ class UsersApiClient
 
     response.count
   end
+
+  def other_method
+    2+2
+  end
+
+  def other_method_2
+    2+2
+  end
 end
